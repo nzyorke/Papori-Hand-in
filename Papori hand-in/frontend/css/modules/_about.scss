@@ -3,27 +3,7 @@
     height: auto;
 
 
-    .first-section-header {
-        @include flex-column;
-        align-items: center;
-        justify-content: center;
-        width: 100%;
-        height: 40vh;
-        padding-top: 100px;
-        background-color: $blue;
 
-        h1 {
-            // padding-top: 50px;
-            font-family: $mirra;
-            color: $red;
-            font-size: 150px;
-            letter-spacing: 1px;
-            border-bottom: 5px solid $white ;
-            margin: 0;
-            text-align: center;
-        }
-
-    }
 
     .first-section-a,
     .first-section-b {
@@ -32,12 +12,24 @@
     }
 
     .first-section-a {
-        height: 50vh;
+        height: auto;
         padding: 20px 20px;
         background-color: $blue;
         @include flex-column;
         align-items: center;
         justify-content: center;
+
+        h1 {
+            // padding-top: 50px;
+            font-family: $mirra;
+            color: $red;
+            font-size: 120px;
+            letter-spacing: 1px;
+            border-bottom: 5px solid $white ;
+            margin: 0;
+            text-align: center;
+            margin-bottom: 30px;
+        }
 
         p {
             color: $white;
@@ -48,11 +40,7 @@
             font-weight: 100;
             line-height: 28px;
         }
-        h1{
-            color: $red;
-            font-family: $mirra;
-            font-size: 5em;
-        }
+
     }
 
     .first-section-b {
@@ -331,7 +319,7 @@
                 background-color: $green;
                 height: 6px;
                 width: 800px;
-                top: 160px;
+                top: 166px;
             }
 
             p {
@@ -531,7 +519,7 @@
 
     .second-section {
         width: 100%;
-        height: 79vh;
+        height: 100vh;
         @include flex-row-reverse;
         align-items: flex-start;
         padding: 20px;
@@ -581,7 +569,7 @@
 
             .logo {
                 position: absolute;
-                bottom: -324px;
+                bottom: -345px;
                 left: -200px;
 
                 img {
@@ -732,12 +720,12 @@
             p {
                 color: $blue;
                 font-family: $jakarta;
-                font-size: 20px;
+                font-size: 18px;
                 text-align: justify;
                 letter-spacing: .8px;
                 font-weight: 500;
                 padding-top: 0px;
-                line-height: 46px;
+                line-height: 36px;
                 padding-bottom: 20px;
 
             }
@@ -798,7 +786,7 @@
 
             .logo {
                 position: absolute;
-                bottom: -328px;
+                bottom: -345px;
                 left: -175px;
 
                 img {
