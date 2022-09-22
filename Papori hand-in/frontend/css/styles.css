@@ -1424,6 +1424,8 @@ nav {
 .team-section .team-section-item .item-info img {
   width: 100%;
   height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .team-section .team-section-item .item-info p {
   padding: 10px 0;
@@ -4311,7 +4313,8 @@ header {
 }
 
 .no-favourite {
-  width: 200%;
+  -moz-column-span: all;
+       column-span: all;
   display: flex;
   justify-content: center;
   font-size: 1.5em;
