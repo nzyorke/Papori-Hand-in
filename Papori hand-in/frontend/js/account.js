@@ -155,6 +155,9 @@ edit_square
   </div>
 </div>
    `;
+    }  else {
+      accountResult.innerHTML = `
+       <div class="no-favourite"><p>No listings yet!</p></div>`;
     }
   });
 
@@ -654,13 +657,13 @@ accountImg.onclick = function () {
 
 function accountExpand() {
   accountDetails.classList.toggle("account-expand");
+}
 
   // ==============================
   //  COLLECT PRODUCT MODAL
   // ==============================
 
   // Render the inner HTML for the modal
-}
 
 let renderProductModal = (projectData) => {
   let productOwner = document.getElementById("product-owner");

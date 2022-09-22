@@ -1,17 +1,19 @@
-const navBar = document.getElementById("nav-bar");
-const navSearch = document.getElementById("nav-search");
+
 const footerTopInfo1 = document.getElementsByClassName(`footer-top-info1`);
 
-// ==============
-//     NAV
-// ==============
+// =================================
+//        NAV BAR FUNCTIONS
+// =================================
+
+const navBar = document.getElementById("nav-bar");
+const navSearch = document.getElementById("nav-search");
 
 navSearch.onclick = function () {
-    navExpand();
+  navExpand();
 };
 
 function navExpand() {
-    navBar.classList.toggle("nav-expand");
+  navBar.classList.toggle("nav-expand");
 }
 
 
@@ -79,4 +81,15 @@ for (let i = 0; i < footerTopInfo1.length; i++) {
 
     });
 
+}
+
+const accountImg = document.getElementById("nav-img-acc");
+const accountDetails = document.getElementById("account-details");
+
+accountImg.onclick = function () {
+  accountExpand();
+};
+
+function accountExpand() {
+  accountDetails.classList.toggle("account-expand");
 }

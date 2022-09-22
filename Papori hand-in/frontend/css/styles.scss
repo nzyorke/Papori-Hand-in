@@ -202,7 +202,7 @@ header {
 }
 
 .no-favourite {
-    width: 200%;
+    column-span: all;
     display: flex;
     justify-content: center;
     font-size: 1.5em;
