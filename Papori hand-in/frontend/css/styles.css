@@ -1242,37 +1242,28 @@ nav {
   width: 100%;
   height: auto;
 }
-.first-section .first-section-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 40vh;
-  padding-top: 100px;
-  background-color: #1C2536;
-}
-.first-section .first-section-header h1 {
-  font-family: "mirra";
-  color: #A7432B;
-  font-size: 150px;
-  letter-spacing: 1px;
-  border-bottom: 5px solid #FDFBFC;
-  margin: 0;
-  text-align: center;
-}
 .first-section .first-section-a,
 .first-section .first-section-b {
   width: 100%;
 }
 .first-section .first-section-a {
-  height: 50vh;
+  height: auto;
   padding: 20px 20px;
   background-color: #1C2536;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+.first-section .first-section-a h1 {
+  font-family: "mirra";
+  color: #A7432B;
+  font-size: 120px;
+  letter-spacing: 1px;
+  border-bottom: 5px solid #FDFBFC;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 30px;
 }
 .first-section .first-section-a p {
   color: #FDFBFC;
@@ -1282,11 +1273,6 @@ nav {
   letter-spacing: 0.8px;
   font-weight: 100;
   line-height: 28px;
-}
-.first-section .first-section-a h1 {
-  color: #A7432B;
-  font-family: "mirra";
-  font-size: 5em;
 }
 .first-section .first-section-b {
   padding: 20px;
@@ -1527,7 +1513,7 @@ nav {
     background-color: #7D876E;
     height: 6px;
     width: 800px;
-    top: 160px;
+    top: 166px;
   }
   .second-section .second-section-a p {
     color: #1C2536;
@@ -1693,7 +1679,7 @@ nav {
   }
   .second-section {
     width: 100%;
-    height: 79vh;
+    height: 100vh;
     display: flex;
     flex-direction: row-reverse;
     align-items: flex-start;
@@ -1736,7 +1722,7 @@ nav {
   }
   .second-section .second-section-b .logo {
     position: absolute;
-    bottom: -324px;
+    bottom: -345px;
     left: -200px;
   }
   .second-section .second-section-b .logo img {
@@ -1871,12 +1857,12 @@ nav {
   .first-section .first-section-b p {
     color: #1C2536;
     font-family: "Plus Jakarta Sans", sans-serif;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     letter-spacing: 0.8px;
     font-weight: 500;
     padding-top: 0px;
-    line-height: 46px;
+    line-height: 36px;
     padding-bottom: 20px;
   }
   .second-section {
@@ -1921,7 +1907,7 @@ nav {
   }
   .second-section .second-section-b .logo {
     position: absolute;
-    bottom: -328px;
+    bottom: -345px;
     left: -175px;
   }
   .second-section .second-section-b .logo img {
@@ -4316,4 +4302,4 @@ header {
   justify-content: center;
   font-size: 1.5em;
   padding: 50px 0;
-}
+}/*# sourceMappingURL=styles.css.map */
