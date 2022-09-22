@@ -75,7 +75,6 @@ fillEditUserInputs = (user, id) => {
       type: "PATCH",
       data: {
         username: username,
-        password: password,
         userdescription: bio,
         profile_img_url: imageUrl,
       },

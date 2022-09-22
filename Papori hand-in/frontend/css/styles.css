@@ -1283,6 +1283,11 @@ nav {
   font-weight: 100;
   line-height: 28px;
 }
+.first-section .first-section-a h1 {
+  color: #A7432B;
+  font-family: "mirra";
+  font-size: 5em;
+}
 .first-section .first-section-b {
   padding: 20px;
   height: auto;
@@ -3425,6 +3430,10 @@ nav {
   #account-result {
     -moz-column-count: 3 !important;
          column-count: 3 !important;
+  }
+  #favourite-result {
+    -moz-column-count: 3;
+         column-count: 3;
   }
   #edit-profile-image {
     margin-bottom: 30px;
